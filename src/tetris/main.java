@@ -2,7 +2,7 @@ package tetris;
 
 public class main {
     public static void main(String[] args) {
-        Shape shape = new Shape(3);
+        Shape shape = new Shape(5);
         char [][] board = new char[5][5];
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 5; j++) {
