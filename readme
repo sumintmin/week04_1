@@ -1,0 +1,16 @@
+구성편집
+
+생성자 오버로딩
+car(c)
+
+this color = color
+
+
+changegear()메소드 car(color, gear, speed.)
+
+
+method overloading
+
+cartest.java
+
+toString("현재 상태 출력)
