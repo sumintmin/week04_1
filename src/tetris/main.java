@@ -1,8 +1,8 @@
 package tetris;
-
 public class main {
     public static void main(String[] args) {
-        Shape shape = new Shape(5);
+        System.out.println("자바프로그래밍 실습 4주차 #tetris_6 학번: 20201115 이름: 육수민");
+        Shape shape = new Shape(6);
         char [][] board = new char[5][5];
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 5; j++) {
@@ -19,14 +19,8 @@ public class main {
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 5; j++) {
                 System.out.printf("%c", board[i][j]);
-
             }
             System.out.println();
-
             }
-
-//            for (int j = 0; j < ; j++) {
-
         }
     }
-//}
